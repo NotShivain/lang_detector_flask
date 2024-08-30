@@ -24,3 +24,6 @@ def detect_language():
     ]
 
     return jsonify({"detections": detections})
+
+if __name__ == '__main__':
+    app.run(debug=True)
